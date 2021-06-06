@@ -2,3 +2,16 @@ server:
   port: 8081
   servlet:
     context-path: /bootcamp
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/db_santander
+    username: postgres
+    password: root
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none

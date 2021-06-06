@@ -72,6 +72,4 @@ public class StockController {
         return  ResponseEntity.ok(selected);
     }
 
-
-
 }
